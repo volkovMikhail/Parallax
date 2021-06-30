@@ -1,0 +1,24 @@
+.mouse-parallax {
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+.mouse-parallax-bg,
+.mouse-parallax-fog-1,
+.mouse-parallax-fog-2 {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    transition: all 0.1s ease;  
+    background-image: url("listia_rastenie_zelenyj_136320_1920x1080.jpg");
+}
+.mouse-parallax-fog-1 {
+    background-image: url("fog-1.png");    
+    left: -10%;
+}
+.mouse-parallax-fog-2 {
+    background-image: url("fog-2.png");    
+}
